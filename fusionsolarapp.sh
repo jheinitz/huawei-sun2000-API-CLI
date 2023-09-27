@@ -178,7 +178,10 @@ END_COMMENT
 # All the functions 
 
 # kioskmode do not need any form of authentication so can be used indenpedently from rest of the functions in this program before use is only necessary provide link which is given to function from associative array from config.conf look there for kiosk_mode_url_array and check if you provide some correct link then give index name of this element with link which you d'like to check as a first argument for function kioskmode example: kioskmode kioskmode0
-#kioskmode kioskmode0
+kioskmode kioskmode0
+
+echo "temp exit after kioskmode ..."
+exit 0
 
 
 # Function to login to API is necessary to be first need this arguments  syntax like "login_to_API login0 password0" or with different number if you use different login&password instad
