@@ -13297,7 +13297,7 @@ local kiosk_mode_token=`echo "$kiosk_mode_token" | grep -Po '^.{3}\K.*'`
 
 
 # Request to unofficial API checkKioskToken
-local kioskmode=$(http --follow --timeout 7200 GET https://region02eu5.fusionsolar.huawei.com/rest/pvms/web/kiosk/v1/station-kiosk-file?kk=$kiosk_mode_token)
+local kioskmode=$(http --follow --timeout 7200 GET https://region04eu5.fusionsolar.huawei.com/rest/pvms/web/kiosk/v1/station-kiosk-file?kk=$kiosk_mode_token)
 
 #echo $kioskmode | jq
 
