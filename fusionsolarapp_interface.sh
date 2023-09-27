@@ -8,8 +8,8 @@
 # Load configuration values variables
 #source config.conf
 
-#DIALOG=${DIALOG:=whiptail}
-DIALOG=${DIALOG:=dialog}
+DIALOG=${DIALOG:=whiptail}
+#DIALOG=${DIALOG:=dialog}
 #DIALOG=${DIALOG:=xdialog}
 #DIALOG=${DIALOG:=gtkdialog}
 #DIALOG=${DIALOG:=gdialog}
